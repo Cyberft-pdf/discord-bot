@@ -20,7 +20,7 @@ async def on_ready():
     print(f'{client.user} has connected to Discord!')
 print("test2")
 
-
+#code made by cyberft-pdf on github
 
 async def check_launch():
     while True:
