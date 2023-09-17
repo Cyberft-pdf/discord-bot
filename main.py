@@ -50,7 +50,7 @@ async def on_message(message):
             await send_launches(launches, message.channel)
         else:
             await message.channel.send('Žádný start nebyl nalezen.')
-#code made by cyberft-pdf on github:)
+
 
 def get_upcoming_launches():
     response = requests.get(rocket_launch_api_url)
