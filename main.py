@@ -66,4 +66,4 @@ async def send_launches(launches, channel):
         await channel.send(f'Start rakety je naplánován na {launch["launch_date_utc"]} - {launch["mission_name"]}')
 
 
-client.run("MTEwNzIyODMwNzA4NDI5NjIxMg.GkS09s.JKZqPuDHUH1vCvtvkqKWvJQbdoEIJ9etqRgujE")
+client.run("")
