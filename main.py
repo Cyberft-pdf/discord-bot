@@ -15,6 +15,7 @@ client = commands.Bot(command_prefix='!', intents=intents)
 rocket_launch_api_url = 'https://api.spacexdata.com/v3/launches/upcoming'
 
 
+
 @client.event
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
@@ -35,7 +36,6 @@ async def check_launch():
                 message = f"Start mise {launch['name']} začne za {countdown.total_seconds()} sekund!"
                 await client.get_channel(1107756591572336782).send(message)
         await asyncio.sleep(60)
-
 
 
 @client.command()
